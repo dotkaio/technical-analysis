@@ -1,16 +1,10 @@
 alphavantage.co wrapper
 
-usage:
+import alpha
 
->import alpha
->
->ai = alpha.Indicator()
->at = alpha.Ticker()
->
->ai.get_ema('symbol')
->
->at.get_intraday('symbol')
->
-
+ai = alpha.Indicator()
+at = alpha.Ticker()
+ai.get_ema('symbol')
+at.get_intraday('symbol')
 
 under construction...
